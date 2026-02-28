@@ -182,6 +182,32 @@ body {
   word-spacing: 3px;
 }
 
+/* Soft Skills Badges */
+.resume_wrapper .resume_right .resume_namerole .soft-skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 12px;
+}
+
+.resume_wrapper .resume_right .resume_namerole .skill-badge {
+  display: inline-block;
+  background: linear-gradient(135deg, #0175b2 0%, #1a2238 100%);
+  color: #fff;
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  box-shadow: 0 2px 4px rgba(1, 117, 178, 0.2);
+  transition: transform 0.2s ease;
+}
+
+.resume_wrapper .resume_right .resume_namerole .skill-badge:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(1, 117, 178, 0.3);
+}
+
 .resume_image img {
   max-height: 220px; /* Adjust as needed */
   width: auto;
